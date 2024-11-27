@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RS 0-5">
+    <title>RS 0-5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+        }
+
+        nav {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            overflow: visible;
+            position: relative;
+            z-index: 1;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 1rem;
+            position: relative;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 14px 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: rgba(68, 68, 68, 0.9);
+            z-index: 1000;
+            min-width: 30px;
+        }
+
+        nav ul li:hover .dropdown {
+            display: block;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 10px;
+            color: white;
+        }
+
+        .dropdown a:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: center;
+            justify-content: center;
+        }
+
+        .contact-form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 48%;
+        }
+
+        .about-section {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 48%;
+            color:aliceblue
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        a:link,
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: darkgoldenrod;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 14px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(7, 4, 8);
+            border-color: rgb(250, 250, 250);
+        }
+
+        p {
+            animation-duration: 3s;
+            animation-name: slide-in;
+        }
+
+            @keyframes slide-in {
+            from {
+            translate: 150vw 0;
+            scale: 200% 1;
+        }
+
+        to {
+            translate: 0 0;
+            scale: 100% 1;
+        }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RS 0-5 Website</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">LV</a></li>
+        <li><a href="https://discord.gg/Hf8XBrSmZv" target="_blank">Discord</a></li>
+        <li><a href="https://store.grallemole.com/" target="_blank">Store</a></li>
+        <li><a href="https://grallemole.com" target="_blank">GRALLEMOLE</a></li>
+
+<main class="container">
+    <section class="section about-section" id="about">
+        <p>Welcome to the official <b>"RS 0-5"</b> website.</p>
+        <p>I am the owner of the <a href="https://grallemole.com" target="_blank"><b>𝐆𝐫𝐚𝐥𝐥𝐞𝐦𝐨𝐥𝐞™(S)</b></a> project! </p>
+        <p><b>My social networks👇:</b></p>
+        <p><a href="https://www.instagram.com/rs_0_5/" target="_blank">Instagram.com</a>
+        <p><a href="https://steamcommunity.com/id/RS0-5/" target="_blank">Steam.com</a>
+        <p><a href="https://www.snapchat.com/add/rss1.8?share_id=f0sglqvIZMA&locale=lv-LV" target="_blank">Snapchat.com</a>
+        <p><a href="https://open.spotify.com/user/31ysmpfmzjtx63ow7csxapwag474" target="_blank">Spotify.com</a>
+        <p><a href="https://www.facebook.com/people/Ralfs-Silabriedis/100014215005659/" target="_blank">Facebook.com</a>
+        <p><a href="https://www.youtube.com/channel/UCsZgrT5_3QGLDLtU9giKj-g" target="_blank">Youtube.com</a>
+        <p><a href="https://www.twitch.tv/rs0_5" target="_blank">Twitch.com</a>
+        <p><a href="https://github.com/RS0-5" target="_blank">Github.com</a>
+            <p><b>ASupport me with pesso:</b></p>
+        <p><a href="https://www.patreon.com/RS05" target="_blank">Patreon.com</a>
+        <p><a href="https://www.paypal.com/paypalme/Silabriedis" target="_blank">Paypal.com (Pay for the energy drink :))</a>
+    </section>
+
+<footer>
+    <p>&copy; RS 0-5 2024</p>
+</footer>
+
+</body>
+</html>
