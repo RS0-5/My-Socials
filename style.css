@@ -1,47 +1,65 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #1a1a1a, #111);
+    background: linear-gradient(to top left, #1c1c1c, #333);
     color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
-    background: #111;
+    background: #000;
     color: #fff;
     text-align: center;
-    padding: 2rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 3rem 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 2.5rem;
-    letter-spacing: 1px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #f2a900, 0 0 15px #f2a900;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #f2a900, 0 0 30px #f2a900;
+    }
 }
 
 nav {
-    background-color: #111;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background: #222;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
 nav ul li {
     position: relative;
-    padding: 1rem 2rem;
-    transition: all 0.3s ease;
+    padding: 1rem 1.5rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 8px;
 }
 
 nav ul li:hover {
-    background-color: #333;
-    border-radius: 5px;
+    background-color: #444;
+    transform: scale(1.1);
 }
 
 nav ul li a {
@@ -55,8 +73,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #444;
+    background-color: #f2a900;
     border-color: #f2a900;
+    color: #000;
 }
 
 .dropdown {
@@ -64,10 +83,11 @@ nav ul li a:hover {
     position: absolute;
     background-color: rgba(68, 68, 68, 0.9);
     z-index: 1000;
-    min-width: 180px;
-    border-radius: 5px;
+    min-width: 200px;
+    border-radius: 8px;
     top: 100%;
     left: 0;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s ease;
 }
 
@@ -78,8 +98,9 @@ nav ul li:hover .dropdown {
 
 .dropdown a {
     display: block;
-    padding: 12px 20px;
+    padding: 14px 20px;
     color: #fff;
+    font-size: 1rem;
     transition: background-color 0.3s ease;
 }
 
@@ -88,13 +109,14 @@ nav ul li:hover .dropdown {
 }
 
 main {
-    padding: 4rem 20px;
+    padding: 6rem 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 60vh;
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
+    position: relative;
 }
 
 .container {
@@ -106,25 +128,27 @@ main {
 }
 
 .contact-form, .about-section {
-    background-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
     width: 48%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form:hover, .about-section:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 .contact-form input, .contact-form textarea {
     width: 100%;
-    padding: 14px;
+    padding: 16px;
     margin-bottom: 15px;
-    border: 2px solid #ccc;
+    border: 2px solid #555;
     border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
     font-size: 1rem;
     transition: border-color 0.3s ease;
 }
@@ -135,34 +159,28 @@ main {
 }
 
 .contact-form button {
-    padding: 14px 24px;
-    background-color: #333;
-    color: white;
+    padding: 16px 24px;
+    background-color: #f2a900;
+    color: #000;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
     font-size: 1.1rem;
-    transition: background-color 0.3s ease;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .contact-form button:hover {
-    background-color: #555;
-}
-
-.about-section {
-    color: #fff;
-    font-size: 1.1rem;
+    background-color: #fff;
+    color: #f2a900;
+    transform: scale(1.05);
 }
 
 footer {
     background-color: #111;
     color: white;
     text-align: center;
-    padding: 1.5rem;
-    position: relative;
-    width: 100%;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-    z-index: 2;
+    padding: 2rem;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
 }
 
 a:link, a:visited {
@@ -176,18 +194,18 @@ a:hover {
 }
 
 p {
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-name: slide-in;
 }
 
 @keyframes slide-in {
     from {
         transform: translateX(150vw);
-        scale: 1.5;
+        opacity: 0;
     }
 
     to {
         transform: translateX(0);
-        scale: 1;
+        opacity: 1;
     }
 }
