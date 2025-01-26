@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @RS0-5
 - 👀 I’m interested in sport, military, gaming, coding.
-- 🛜 This is my website who i created just for fun, who can i add more things in time if i need.. - My all other socials - https://rs0-5.github.io/website/
+- 🛜 This is my website who i created just for fun, who can i add more things in time if i need.. - My all other socials - https://rs0-5.github.io/My-Socials/
 - 🌱 I’m currently learning coding.
 - 📫 Email - ralfins0201@gmail.com
 - 😄 Pronouns: Whats the difference?
