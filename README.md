@@ -5,8 +5,9 @@
 - 📫 Email - ralfins0201@gmail.com
 - 😄 Pronouns: Whats the difference?
 - ⚡ Fun fact: You lost 1min from your life to check this shit... And i lost 2min write this and post this 
-- 👤 I am owner of GRALLEMOLE PROJECT and you can check out down below all my project links:
-- 💫 https://grallemole.com/ - Website
+- 👤 I am owner of GRALLEMOLE project.
+- 🖇️All my project links:
+- 💫 https://grallemole.com - Website
 - 🛒 https://store.grallemole.com/ - Store
 - 🤖 https://grallemole.com/bot - Discord APP/BOT
-- 🤖 https://www.patreon.com/GrallemoleAPP - Patreon
+- 💵 https://www.patreon.com/GrallemoleAPP - Patreon
