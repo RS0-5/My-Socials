@@ -9,8 +9,4 @@
 - 💫 https://grallemole.com/ - Website
 - 🛒 https://store.grallemole.com/ - Store
 - 🤖 https://grallemole.com/bot - Discord APP/BOT
-- 🤖 https://www.patreon.com/c/GrallemoleAPP - Patreon
-<!---
-RS0-5/RS0-5 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 🤖 https://www.patreon.com/GrallemoleAPP - Patreon
