@@ -50,27 +50,8 @@ nav ul li a:hover {
     color: darkgoldenrod;
 }
 
-.dropdown {
-    display: none;
-    position: absolute;
-    background-color: rgba(68, 68, 68, 0.9);
-    z-index: 1000;
-    min-width: 120px;
-}
-
 nav ul li:hover .dropdown {
     display: block;
-}
-
-.dropdown a {
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.dropdown a:hover {
-    background-color: rgb(0, 0, 0);
 }
 
 main {
@@ -89,7 +70,6 @@ main {
     padding: 20px;
     border-radius: 5px;
     background-color: #111;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
     color: aliceblue;
 }
 
