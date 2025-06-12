@@ -69,12 +69,11 @@ main {
 .about-section {
     padding: 20px;
     border-radius: 5px;
-    background-color: #111;
     color: aliceblue;
 }
 
 footer {
-    background-color: #000000;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 1rem;
