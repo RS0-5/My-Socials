@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -18,7 +18,7 @@ h1 {
 }
 
 nav {
-    background-color: #000000;
+    background-color: black;
     padding: 0;
 }
 
@@ -45,7 +45,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgb(7, 4, 8);
     border-color: rgb(250, 250, 250);
     color: darkgoldenrod;
 }
