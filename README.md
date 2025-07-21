@@ -8,6 +8,4 @@
 - 👤 I am owner of GRALLEMOLE project.
 - 🖇️All my project links:
 - 💫 https://grallemole.com - Website
-- 🛒 https://store.grallemole.com/ - Store
 - 🤖 https://grallemole.com/bot - Discord APP/BOT
-- 💵 https://www.patreon.com/GrallemoleAPP - Patreon
